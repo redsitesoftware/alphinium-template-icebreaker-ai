@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "Icebreaker AI",
+    "slug": "icebreaker-ai",
+    "version": "1.0.0",
+    "scheme": "icebreaker",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": false,
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1A0A2E"
+    },
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.redsitesoftware.icebreakerAI",
+      "infoPlist": {
+        "NSCameraUsageDescription": "Icebreaker AI uses your camera to scan QR codes.",
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#1A0A2E"
+      },
+      "package": "com.redsitesoftware.icebreakerAI"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro",
+      "template": "./web/index.html"
+    },
+    "plugins": []
+  }
+}
